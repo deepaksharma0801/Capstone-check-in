@@ -1,0 +1,4 @@
+Model,ROC-AUC,PR-AUC
+Logistic Regression,0.7124,0.2112
+Random Forest,0.6578,0.1525
+XGBoost,0.6906,0.2011

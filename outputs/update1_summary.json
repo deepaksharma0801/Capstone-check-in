@@ -1,0 +1,89 @@
+{
+  "dataset_shapes": {
+    "crashes": [
+      1028152,
+      54
+    ],
+    "people": [
+      564300,
+      29
+    ],
+    "vehicles": [
+      527452,
+      71
+    ],
+    "model_frame": [
+      100000,
+      21
+    ]
+  },
+  "date_range": {
+    "min": "2013-03-03",
+    "max": "2026-02-11"
+  },
+  "severe_rate": 0.09678,
+  "models": [
+    {
+      "Model": "Logistic Regression",
+      "ROC-AUC": "0.7124",
+      "PR-AUC": "0.2112"
+    },
+    {
+      "Model": "Random Forest",
+      "ROC-AUC": "0.6578",
+      "PR-AUC": "0.1525"
+    },
+    {
+      "Model": "XGBoost",
+      "ROC-AUC": "0.6906",
+      "PR-AUC": "0.2011"
+    }
+  ],
+  "top_risk_intersections": [
+    {
+      "LAT_ROUND": 41.91,
+      "LON_ROUND": -87.736,
+      "CrashCount": 60,
+      "SevereCount": 13,
+      "AvgKABCO": 1.5333333333333334,
+      "HitRunRate": 0.23333333333333334,
+      "RISK_INDEX": 19.933333333333334
+    },
+    {
+      "LAT_ROUND": 41.722,
+      "LON_ROUND": -87.585,
+      "CrashCount": 121,
+      "SevereCount": 15,
+      "AvgKABCO": 1.2975206611570247,
+      "HitRunRate": 0.2644628099173554,
+      "RISK_INDEX": 19.462809917355372
+    },
+    {
+      "LAT_ROUND": 41.869,
+      "LON_ROUND": -87.745,
+      "CrashCount": 24,
+      "SevereCount": 9,
+      "AvgKABCO": 2.0833333333333335,
+      "HitRunRate": 0.25,
+      "RISK_INDEX": 18.75
+    },
+    {
+      "LAT_ROUND": 41.743,
+      "LON_ROUND": -87.683,
+      "CrashCount": 29,
+      "SevereCount": 10,
+      "AvgKABCO": 1.793103448275862,
+      "HitRunRate": 0.1724137931034483,
+      "RISK_INDEX": 17.93103448275862
+    },
+    {
+      "LAT_ROUND": 41.737,
+      "LON_ROUND": -87.566,
+      "CrashCount": 16,
+      "SevereCount": 8,
+      "AvgKABCO": 2.125,
+      "HitRunRate": 0.375,
+      "RISK_INDEX": 17.0
+    }
+  ]
+}
