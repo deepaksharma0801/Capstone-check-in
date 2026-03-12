@@ -6,7 +6,7 @@ This repository contains the Update‑1 analysis workflow for the capstone proje
 Update‑1 delivers baseline severity models, EDA, spatial hot‑spot clustering,
 and a severity‑weighted intersection risk index, along with a quad chart PDF.
 
-## What’s Included
+## What’s Included in this
 - Baseline crash‑severity models (LR/RF/XGBoost or fallback)
 - EDA dashboard (time, severity distribution, conditions)
 - Spatial hot‑spot clustering (DBSCAN)
